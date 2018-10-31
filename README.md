@@ -7,7 +7,7 @@ Crowd system for social communication management.
 
 my $quarup = new Tupi::Guarani;
 my $ae = ['rau@tupi.io','caba@guarany.io'];
-my $m = "Morubixaba supé pe-nhe'eng.";
+my $m = "Morubixaba supé pe-nhe'eng abá-etá";
 $quarup->tupa('maritaca', 'email', $m, $ae);
 
 ```
