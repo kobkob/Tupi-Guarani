@@ -2,7 +2,12 @@
 
 use strict;
 use warnings;
+use Mojolicious::Lite -signatures;
 
 our $VERSION = "0.0.1";
 
-print "Hello Tupy!";
+get '/' => sub ($c) {
+  $c->render(text => '<h1>Hello Tupy!</h1>');
+};
+
+app->start;
